@@ -1,0 +1,32 @@
+{
+  "name": "canvas-studio-editor",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "React + Fabric.js 기반 범용 캔버스 편집 플랫폼 (PPT/Canva 스타일). 포트폴리오 및 다양한 서비스에 임베드 가능한 편집기 코어.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "typecheck": "tsc -b --noEmit"
+  },
+  "dependencies": {
+    "fabric": "^7.4.0",
+    "lucide-react": "^0.469.0",
+    "react": "^19.1.0",
+    "react-colorful": "^5.6.1",
+    "react-dom": "^19.1.0",
+    "zustand": "^5.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.7.3",
+    "vite": "^6.0.7"
+  },
+  "author": "Canvas Studio",
+  "license": "MIT"
+}
